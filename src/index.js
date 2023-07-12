@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import ESG from './pages/ESG';
 import Reports from './pages/Reports';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 const router = createBrowserRouter(
   [
@@ -14,7 +16,7 @@ const router = createBrowserRouter(
   ]
 )
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
