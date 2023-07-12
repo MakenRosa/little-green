@@ -1,7 +1,10 @@
+@import 'src/styles/variables.scss';
+
 .navbar {
-  background-color: rgb(37, 170, 37);
+  background-color: $verde;
   font-family: 'Roboto', sans-serif;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #bebebe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   .navbar-brand {
     color: #145A32;
