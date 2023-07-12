@@ -3,16 +3,16 @@ import styles from "./CarouselSite.module.scss";
 
 const CarouselSite = () => {
     return(
-        <Carousel className={styles.carousel}>
+        <Carousel className={styles.carousel} indicators={false}>
         <Carousel.Item className={styles.carousel__item}>
           <img
-            className="d-block w-100"
+            className={`d-block w-100 ${styles.carousel__img}`}
             src="assets/ESG.jpeg"
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item className={styles.carousel__item}>
-          <img className="d-block w-100" src="/assets/environment.jpg" alt="foto meio ambiente" />
+          <img className={`d-block w-100 ${styles.carousel__img}`} src="/assets/environment.jpg" alt="foto meio ambiente" />
           <Carousel.Caption>
             <h3>ENVIRONMENT</h3>
             <p>
@@ -21,7 +21,7 @@ const CarouselSite = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.carousel__item}>
-          <img className="d-block w-100" src="/assets/social.jpg" alt="foto social" />
+          <img className={`d-block w-100 ${styles.carousel__img}`} src="/assets/social.jpg" alt="foto social" />
           <Carousel.Caption>
             <h3>SOCIAL</h3>
             <p>
@@ -30,7 +30,7 @@ const CarouselSite = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.carousel__item}>
-          <img className="d-block w-100" src="/assets/governance.jpg" alt="foto governança" />
+          <img className={`d-block w-100 ${styles.carousel__img}`} src="/assets/governance.jpg" alt="foto governança" />
           <Carousel.Caption>
             <h3>GOVERNANCE</h3>
             <p>
