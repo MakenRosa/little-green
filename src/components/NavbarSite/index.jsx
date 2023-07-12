@@ -11,8 +11,8 @@ const NavbarSite = () => {
         <Navbar.Brand href="/">Little Green</Navbar.Brand>
         <Nav className={styles.navbar__nav}>
           <Link className={styles.navbar__nav__link} to={"/"}>Home</Link>
-          <Link className={styles.navbar__nav__link} to="reports">Relatórios</Link>
           <Link className={styles.navbar__nav__link} to="esg">Práticas ESG</Link>
+          <Link className={styles.navbar__nav__link} to="reports">Relatórios</Link>
         </Nav>
       </Container>
     </Navbar>
