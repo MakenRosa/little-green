@@ -5,11 +5,13 @@ import Card from "react-bootstrap/Card";
 import CarouselSite from "components/CarouselSite";
 import natureSenacImage from "../../img/nature-senac.jpeg";
 import inclusionSenacImage from "../../img/inclusion-senac.jpeg";
+import ContainerMVV from "components/ContainerMVV/index";
 
 const Home = () => {
   return (
     <div className={styles.container}>
       <CarouselSite />
+      <ContainerMVV />
       <Container>
         <Card>
           <Card.Body className={styles.card_body}>

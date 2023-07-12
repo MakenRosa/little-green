@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  background-color: #207239;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.card {
+  border: none !important;
+  background-color: #b1d8b7;
+}
+
+.cardText {
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.cardGroup {
+  gap: 50px;
+}
