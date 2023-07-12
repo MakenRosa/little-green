@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./Home.module.scss";
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
 import CarouselSite from "components/CarouselSite";
+import natureSenacImage from "../../img/nature-senac.jpeg";
+import inclusionSenacImage from "../../img/inclusion-senac.jpeg";
 
 const Home = () => {
   return (
@@ -10,12 +12,11 @@ const Home = () => {
       <CarouselSite />
       <Container>
         <Card>
-          <Card.Body>
-            <Card.Title>Little Green</Card.Title>
+          <Card.Body className={styles.card_body}>
+            <Card.Title>PROJETOS</Card.Title>
             <Card.Text>
-              Little Green é uma empresa de consultoria em sustentabilidade que
-              tem como objetivo auxiliar empresas a se tornarem mais
-              sustentáveis.
+              <img src={natureSenacImage} alt="" />
+              <img src={inclusionSenacImage} alt="" />
             </Card.Text>
           </Card.Body>
         </Card>
