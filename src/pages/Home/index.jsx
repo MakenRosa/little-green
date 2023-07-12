@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Home.module.css";
-import Navbar from "../Navbar";
+import NavbarSite from "../NavbarSite";
 
 const Home = () => {
   return (
     <div className={styles.home}>
-      <Navbar />
+      <NavbarSite />
       <h1>Home</h1>
     </div>
   );
