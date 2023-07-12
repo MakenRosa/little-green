@@ -1,24 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './pages/Home';
-import ESG from './pages/ESG';
-import Reports from './pages/Reports';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AppRouter from "./routes";
 
-
-const router = createBrowserRouter(
-  [
-    { path: '/', element: <Home /> },
-    { path: '/esg', element: <ESG /> },
-    { path: '/reports', element: <Reports /> },
-  ]
-)
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+      <AppRouter />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
