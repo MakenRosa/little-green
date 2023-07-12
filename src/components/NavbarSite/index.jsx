@@ -1,20 +1,19 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Navbar, Nav } from "react-bootstrap";
 import styles from "./NavbarSite.module.scss";
-import { Link } from "react-router-dom";
+
 
 const NavbarSite = () => {
   return (
     <Navbar className={styles.navbar}>
-      <Container>
-        <Navbar.Brand href="/">Little Green</Navbar.Brand>
-        <Nav className={styles.navbar__nav}>
-          <Link className={styles.navbar__nav__link} to={"/"}>Home</Link>
-          <Link className={styles.navbar__nav__link} to="esg">Práticas ESG</Link>
-          <Link className={styles.navbar__nav__link} to="reports">Relatórios</Link>
-        </Nav>
-      </Container>
+      <Nav className={`mr-auto ${styles.navbar__nav}`}>
+        <Nav.Link className={styles.navbar__nav__link} href="#home">Início</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#mission">Missão</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#vision">Visão</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#values">Valores</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#projects">Projetos</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#results">Resultados</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#contact">Participe</Nav.Link>
+      </Nav>
     </Navbar>
   );
 };
