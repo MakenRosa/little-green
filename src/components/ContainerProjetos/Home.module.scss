@@ -45,8 +45,14 @@
 }
 
 @media (max-width: 1400px) {
+  .img_text {
+    width: auto;
+    height: auto;
+  }
+}
 
-  .container_img_text{
+@media (max-width: 1300px) {
+  .container_img_text {
     flex-direction: column;
   }
 
