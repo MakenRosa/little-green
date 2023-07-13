@@ -18,7 +18,7 @@ const ContainerProjetos = () => {
         <div className={styles.container_img_text}>
           <div className={styles.img_text}>
             <img src={natureSenacImage} alt="" />
-            <span>
+            <span className={styles.span_txt}>
               A construção de uma horta escolar entra no pilar da
               sustentabilidade do ESG. Nesse caso, os alunos aprendem a
               importância de preservar o meio ambiente e, também, podem absorver
@@ -36,7 +36,7 @@ const ContainerProjetos = () => {
           </div>
           <div className={styles.img_text}>
             <img src={inclusionSenacImage} alt="" />
-            <span>
+            <span className={styles.span_txt}>
               A diversidade e inclusão é um pilar importante da agenda ESG, e
               pode aparecer tanto na contratação de professores e demais
               funcionários com múltiplas características, quanto nas aulas e
@@ -51,7 +51,7 @@ const ContainerProjetos = () => {
           </div>
           <div className={styles.img_text}>
             <img src={sustainabilitySenacImage} alt="" />
-            <span>
+            <span className={styles.span_txt}>
               A preocupação com a preservação do meio ambiente está incluída no
               ESG e pode ser praticada na escola por meio de oficinas de
               reciclagem, reutilização de materiais e outras ações de
