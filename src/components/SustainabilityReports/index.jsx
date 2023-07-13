@@ -37,7 +37,7 @@ const SustainabilityReports = () => {
     ];
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="reports">
             <h2 className={styles.title}>Relatórios de Sustentabilidade</h2>
             <p className={styles.description}>Acompanhe nosso progresso em direção aos objetivos de sustentabilidade. Aqui você pode baixar nossos relatórios de sustentabilidade mais recentes.</p>
             <div className={styles.reports}>
