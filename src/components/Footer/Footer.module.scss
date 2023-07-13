@@ -1,0 +1,56 @@
+.footer {
+  background-color: #282c34;
+  padding: 1.2rem 0;
+  color: #ffffff;
+  width: 100%;
+  height: fit-content;
+
+  .logoSection,
+  .linksSection,
+  .senacSection {
+    margin-bottom: 2rem;
+  }
+
+  .logoSection {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logoSection img {
+    width: 230px;
+    height: 230px;
+  }
+
+  a {
+    color: #61dafb;
+    text-decoration: none;
+
+    &:hover {
+      color: #cccccc;
+    }
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    fill: #61dafb;
+  }
+
+  @media (min-width: 768px) {
+    // Bootstrap's medium breakpoint
+    .logoSection,
+    .linksSection,
+    .senacSection {
+      margin-bottom: 0;
+    }
+  }
+}

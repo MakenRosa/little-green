@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  background-color: rgb(32, 114, 57);
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+  color: white;
+}
+
+.card {
+  border: none !important;
+  background-color: rgb(177, 216, 183);
+  margin-top: 20px;
+}
+
+.cardText {
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+.cardGroup {
+  gap: 50px;
+}
+
+@media (max-width: 1400px) {
+  .cardGroup {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
