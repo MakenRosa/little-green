@@ -9,11 +9,13 @@
   text-align: center;
   padding: 10px;
   font-size: 1.5em;
+  color: white;
 }
 
 .card {
   border: none !important;
   background-color: rgb(177, 216, 183);
+  margin-top: 20px;
 }
 
 .cardText {
@@ -24,4 +26,11 @@
 
 .cardGroup {
   gap: 50px;
+}
+
+@media (max-width: 1400px) {
+  .cardGroup {
+    flex-direction: column;
+    gap: 10px;
+  }
 }

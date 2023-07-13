@@ -49,3 +49,10 @@
   font-size: 1.1em;
   font-weight: bold;
 }
+
+@media (max-width: 1400px) {
+  .cardGroup {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
