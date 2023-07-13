@@ -5,6 +5,7 @@ import ContainerMVV from "components/ContainerMVV";
 import ContainerProjetos from "components/ContainerProjetos";
 import SustainabilityReports from "components/SustainabilityReports/index";
 import Participate from "components/Participate/index";
+import Footer from "components/Footer/index";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ContainerProjetos />
       <SustainabilityReports />
       <Participate />
+      <Footer />
     </div>
   );
 };
