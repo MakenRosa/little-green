@@ -67,3 +67,16 @@
     height: auto;
   }
 }
+@media (max-width: 400px) {
+  .container_img_text {
+    width: 90%;
+  }
+
+  .img_text {
+    width: 300px;
+  }
+
+  .img_text > img {
+    width: auto;
+  }
+}
