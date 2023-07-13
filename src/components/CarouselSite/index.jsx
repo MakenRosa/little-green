@@ -3,7 +3,7 @@ import styles from "./CarouselSite.module.scss";
 
 const CarouselSite = () => {
   return (
-    <Carousel className={styles.carousel} indicators={false}>
+    <Carousel id="home" className={styles.carousel} indicators={false}>
       <Carousel.Item className={styles.carousel__item}>
         <img
           className={`d-block w-100 ${styles.carousel__img}`}

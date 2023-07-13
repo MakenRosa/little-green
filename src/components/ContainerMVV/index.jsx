@@ -9,7 +9,7 @@ const ContainerMVV = () => {
       <CardGroup className={styles.cardGroup}>
         <Card className={styles.card}>
           <Card.Body>
-            <Card.Title className={styles.cardTitle}>Missão</Card.Title>
+            <Card.Title id="mission" className={styles.cardTitle}>Missão</Card.Title>
             <Card.Text className={styles.cardText}>
               Nossa missão é proporcionar uma educação de excelência, preparando
               nossos alunos para se tornarem líderes responsáveis e
@@ -20,7 +20,7 @@ const ContainerMVV = () => {
         </Card>
         <Card className={styles.card}>
           <Card.Body>
-            <Card.Title className={styles.cardTitle}>Visão</Card.Title>
+            <Card.Title id="vision" className={styles.cardTitle}>Visão</Card.Title>
             <Card.Text className={styles.cardText}>
               Buscamos ser uma referência em práticas educacionais que integram
               os princípios de ESG. Queremos ser reconhecidos como uma
@@ -32,7 +32,7 @@ const ContainerMVV = () => {
         </Card>
         <Card className={styles.card}>
           <Card.Body>
-            <Card.Title className={styles.cardTitle}>Valores</Card.Title>
+            <Card.Title id="values" className={styles.cardTitle}>Valores</Card.Title>
             <Card.Text className={styles.cardText}>
               <ul>
                 <li>
