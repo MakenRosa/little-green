@@ -31,7 +31,7 @@ const ContainerProjetos = () => {
               na hora pode ser aproveitado na escola ou entregue aos alunos, o
               que ajuda a incentivar a alimentação saudável. É válido também
               fazer a doação desses produtos, reforçando os impactos positivos
-              que a instituição de ensino precisa oferecer à sociedade.{" "}
+              que a instituição de ensino precisa oferecer à sociedade.
             </span>
           </div>
           <div className={styles.img_text}>
