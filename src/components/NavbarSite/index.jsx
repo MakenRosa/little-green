@@ -1,6 +1,6 @@
 import { Navbar, Nav } from "react-bootstrap";
 import styles from "./NavbarSite.module.scss";
-
+import "./navbar.css";
 
 const NavbarSite = () => {
   return (
