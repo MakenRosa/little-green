@@ -8,7 +8,7 @@ import sustainabilitySenacImage from "../../img/sustainability-senac.jpeg";
 
 const ContainerProjetos = () => {
   return (
-    <Container className={styles.container_projeto}>
+    <Container id="projects" className={styles.container_projeto}>
       <Card className={styles.card_projeto}>
         <Card.Body className={styles.card_body}>
           <Card.Title>PROJETOS</Card.Title>
