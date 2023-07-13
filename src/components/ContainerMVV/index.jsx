@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ContainerMVV.module.css";
+import styles from "./ContainerMVV.module.scss";
 import { Container, Card } from "react-bootstrap";
 import CardGroup from "react-bootstrap/CardGroup";
 
