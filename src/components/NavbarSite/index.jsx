@@ -13,7 +13,7 @@ const NavbarSite = () => {
         <Nav.Link className={styles.navbar__nav__link} href="#projects">Projetos</Nav.Link>
         <Nav.Link className={styles.navbar__nav__link} href="#results">Resultados</Nav.Link>
         <Nav.Link className={styles.navbar__nav__link} href="#reports">Relatórios</Nav.Link>
-        <Nav.Link className={styles.navbar__nav__link} href="#contact">Participe</Nav.Link>
+        <Nav.Link className={styles.navbar__nav__link} href="#participate">Participe</Nav.Link>
       </Nav>
     </Navbar>
   );
