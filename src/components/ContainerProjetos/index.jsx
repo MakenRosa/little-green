@@ -11,7 +11,7 @@ const ContainerProjetos = () => {
     <Container id="projects" className={styles.container_projeto}>
       <Card className={styles.card_projeto}>
         <Card.Body className={styles.card_body}>
-          <Card.Title>PROJETOS</Card.Title>
+          <Card.Title className={styles.card_title}>PROJETOS</Card.Title>
         </Card.Body>
       </Card>
       <Card.Text>
