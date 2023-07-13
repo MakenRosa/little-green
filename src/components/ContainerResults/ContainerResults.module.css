@@ -5,10 +5,16 @@
 }
 
 .cardTitle {
-  background-color: rgb(32, 114, 57);
+  height: 120px; /* Defina a altura desejada */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 10px;
   font-size: 1.5em;
+  background-color: rgb(32, 114, 57);
   color: white;
 }
 
@@ -26,6 +32,22 @@
 
 .cardGroup {
   gap: 50px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgb(32, 114, 57);
+  padding: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.text_muted {
+  padding: 10px;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 @media (max-width: 1400px) {
