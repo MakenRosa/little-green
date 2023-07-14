@@ -14,10 +14,18 @@
   width: 100%;
   padding: 0px;
   z-index: 1000;
+  @media screen and (max-width: 600px) {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+    
+  
 
   &__nav {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -27,6 +35,7 @@
     height: 100%;
     width: 100%;
     position: relative;
+ 
 
     &__link {
       color: rgb(255, 255, 255);
@@ -70,4 +79,68 @@
       }
     }
   }
+}
+
+.burgerDiv {
+  display: none;
+  
+  @media screen and (max-width: 600px) {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: $verdeClaro;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    &__img {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__button {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 50px;
+      height: 50px;
+      background: transparent;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 10px;
+      margin: 10px 10px 0px 10px;
+      box-sizing: border-box;
+      background-color: $verde;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      transition: all 0.15s ease;
+
+      &:hover {
+        background-color: green;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &__line {
+        width: 30px;
+        height: 2px;
+        background-color: $verdeClaro;
+        padding: 0;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
+        transform-origin: 1px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        
+      }
+
+
+
+    }
+  }
+
 }
